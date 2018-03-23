@@ -1,4 +1,4 @@
-city,iso_alpha2,iso_alpha3
+country,code,iso_alpha3
 Afghanistan,AF,AFG
 ,AX,ALA
 Albania,AL,ALB

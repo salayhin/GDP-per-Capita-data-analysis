@@ -11,6 +11,6 @@ import scrapy
 class CountrycodeItem(scrapy.Item):
     # define the fields for your item here like:
     country_name = scrapy.Field()
-    iso_alpha2 = scrapy.Field()
+    code = scrapy.Field()
     iso_alpha3 = scrapy.Field()
     #pass

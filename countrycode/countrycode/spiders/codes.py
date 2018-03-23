@@ -27,7 +27,7 @@ class CodesSpider(scrapy.Spider):
             iso_alpha3 = tr.xpath("//td[4]/text()").extract_first().strip()
 
             yield {
-                'city': country_name,
-                'iso_alpha2': iso_alpha2,
+                'country': country_name,
+                'code': iso_alpha2,
                 'iso_alpha3': iso_alpha3,
             }
